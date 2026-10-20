@@ -1,0 +1,12 @@
+.nl-fields{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:8px 16px}
+.nl-fields .nl-field label{display:block;font-weight:600;margin-bottom:4px}
+.nl-fields .nl-field input,.nl-fields .nl-field textarea{width:100%}
+.nl-fields .nl-field--textarea{grid-column:1/-1}
+.nl-fields .nl-field input.nl-vin{width:calc(100% - 110px);text-transform:uppercase}
+.nl-vin-result{display:block;margin-top:4px;font-size:12px;color:#1d6f42}
+.nl-vin-result.is-error{color:#b32d2e}
+.nl-gallery__list{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 8px}
+.nl-gallery__list li{position:relative;width:70px;height:70px;cursor:move;margin:0}
+.nl-gallery__list img{width:70px;height:70px;object-fit:cover;border-radius:4px;display:block}
+.nl-gallery__remove{position:absolute;top:-6px;right:-6px;width:20px;height:20px;border-radius:50%;border:0;background:#b32d2e;color:#fff;cursor:pointer;line-height:1}
+.nl-import__errors{max-height:240px;overflow:auto;font-family:monospace;font-size:12px}
